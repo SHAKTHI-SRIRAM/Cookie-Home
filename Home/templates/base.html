@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+
+    <!-- <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a> -->
+
+    <!-- Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alata' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Galada' rel='stylesheet'>
+
+    <title>Cookie Home{% if title %} | {{title}} {% endif%}</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="fixed">
+        <div class="nav-wrapper">
+            <a href="" class="brand-logo left"><h4 class="title">Cookie Home</h4></a>
+            <ul id="nav" class="left">
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- Sidebar icons -->
+    <input type="checkbox" id="check" class="">
+    <label for="check" class="">
+        <i class="material-icons menu-icon" id="menu">menu</i>
+        <i class="material-icons menu-icon" id="cancel">cancel</i>
+    </label>
+    <!-- Sidebar -->
+    <div class="sidebar ">
+        <header class="pink white-text">Menu</header>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="#products">Our Products</a></li>
+            <li><a href="{% url 'register' %}">Join Cookie</a></li>
+        </ul>
+    </div>
+
+    {% block content %}
+    {% endblock content %}
+
+    <!-- Compiled and minified JavaScript -->
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <!-- Materialize JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Custom Js -->
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+</html>

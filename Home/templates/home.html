@@ -1,0 +1,424 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="banner">
+    <div class="banner__content">
+        <h1 class="banner__title">Welcome to Cookie 🥳!!..</h1>
+        <h5 class="banner__desc">You are now in the ama<i>zzz</i>ing world of Cookie. Use all our applications and move into future. Become a member of the cookie family by joining us now!!..</h5>
+    </div>
+</div>
+
+<section class="about pink accent-4">
+    <h1 class="white-text acme section-title">What is Cookie?</h1>
+    <div class="about__content">
+        <h6 class="about__para alata">
+            Cookie is a small mulitipurpose software being developed by students. It has got many useful application built such as <a href="https://cookielearning.herokuapp.com">Cookie Learning</a> (a programming learning application), <a href="https://cookieva.herokuapp.com">Cookie VA </a>(beta, a virtual assisstant app for improved and faster network surfing), <a href="https://theclassroomapp.herokuapp.com">Cookie Classroom Trial</a>(a virtual classroom) and many many more.
+            <br>
+            <br>
+            <br>
+            We build this application for joy and fun which makes programming much more fun. It helps us to learn a lot and do much more stuff. Our major goal is to make many useful open source application which can help to make everyone's life easy. We would love to create awesome applications for you. If you would like to support us the easiest way is to write a review about our applications at <a href="https://cookiereview.herokuapp.com">Cookie Review</a> or write to us at <a href="#">cookielearning@gmail.com</a>.
+            <br>
+            <br>
+            <br>
+            We are open to all your ideas and will love to work on it. Please share your ideas and become a contributor of cookie. We would love to have you in our team.
+            <br>
+            <br>
+            <br>
+            <span class="love center pink-text">We love you all❤️❤️❤️❤️!!...</span>
+        </h6>
+    </div>
+</section>
+
+<section class="products" id="products">
+    <h1 class="pink-text center acme section-title products__title">Our Products</h1>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme purple-text">Cookie Learning</h2>
+                A trial Learning app where you can get to know about the basics to advanced topics of software engineering. To get the courses for free contact cookielearning@gmail.com.
+                <br>
+                <br>
+                <span class="release">Released. Go to <a href="https://cookielearning.herokuapp.com">cookielearning.herokuapp.com</a></span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/clearning.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme blue-text">Cookie VA (beta)</h2>
+                A virtual assisstant application (under development, stable version to be released this December) enabling users to search for information in multiple platforms and gather them easily. It also responds to several other in built commands and accepts voice queries. To get the premium desktop version of this app contact cookielearning@gmail.com .
+                <br>
+                <br>
+                <span class="release">Released. Go to <a href="https://cookieva.herokuapp.com">cookieva.herokuapp.com</a></span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/cva.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme pink-text text-accent-2">Cookie <span class="bangers">Watch</span> </h2>
+                Cookie Watch is a video streaming service which has got wide range of movies, web series, documentaries containing multiple genres like comedy, romance, horror, non-fictional, animations and many more!!.. 
+                <br>
+                <br>
+                <span class="release">Release Date : 9th Nov 2020</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/cwatch.jpeg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme red-text">Cookie Classroom (beta)</h2>
+                A virtual Classroom application which enables teachers to create classrooms, tests, homeworks and assess the students time to time. It has got features of doubtbox and scorecards which improves its performance. To get the premium stable version of this app contact cookielearning@gmail.com .
+                <br>
+                <br>
+                <span class="release">Release Date : 14th Nov 2020</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/cclass.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme yellow-text">Cookie <span class="sofia">Music</span> </h2>
+                A music application containing hundreds of songs ranging from various languages to various genres. Whatever mood you have go to cookie music and play a song of your choice!!..
+                <br>
+                <br>
+                <span class="release">Release Date : 19th Nov 2020</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/cmusic.jpeg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme pink-text text-accent-2">Cookie <span class="cinzel">NEWS</span> </h2>
+                Cookie News gives you a wide range of information on day to day happenings. It covers different fields such as Technology, Entertainment, Sports, Science, Health and Economy. To get to know the current affairs of the world watch Cookie News.
+                <br>
+                <br>
+                <span class="release">Comes out this November</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme green-text">Cookie <span class="cour">Chat</span></h2>
+                Cookie Chat is amessaging application with high security features and point to point encryption. It helps you to communicate with your friends and family swiftly.
+                <br>
+                <br>
+                <span class="release">Comes out this December</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme orange-text">Cookie <span class="gal">Weather</span> </h2>
+                Cookie Weather is aweather application giving live updates upon the climatic conditions all over the world and also predicts the situation of future days.
+                <br>
+                <br>
+                <span class="release">Comes out this December</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme orange-text">Cookie <span class="amita">Community</span> </h2>
+                Cookie Community is a social media where people can share their views and ideas to others, follow the people they love and get to know each other. This app helps to create a socially bonded community. 
+                <br>
+                <br>
+                <span class="release">Comes out this December</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme blue-text">Cookie VA 1.1 </h2>
+                The stable version of Cookie the Virtual Assisstant. The improved features are it accepts voice queries and has got a wide range of inbuilt commands. You can play songs, games and do your schoolwork and projects easily with this application.
+                <br>
+                <br>
+                <span class="release">Comes out this December</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="freviews">
+        <div class="section white center">
+            <h3 class="header acme blue-text">
+                Reviews about Cookie
+            </h3>
+            <div class="carousel myreviews" style="margin-bottom: 30px;">
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Shobana
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Great work. Well done. Keep going..... User friendly and beneficial for beginners and learners.</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Yuvasri S
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Must needed guildline for those who are interested in learning programs.Way to go..
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Vedha Kulkarni
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">U guys are OP seriously.... mind blowing... first attempt is amazing🤩🤩
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Bala
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Really nice try. Web design is excellent. Need more clarity on virtual assistant. When use tools to search the result may be shown in pop up window instead of another tab. After the search there must be a button to go back to home page.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Lakshmi
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Osm work guys!! Keep going :-)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Sabareesh.k
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Osm work guys!! Keep going :-)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Kripa
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Awesome job guys. Will surely use it to improve my computer knowledge. Am interested to see more new stuff from all of u
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Vidya
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Looking at the website and the reviews, we should probably look at giving you the school website-Your first client! I like some of the colours used in the page. Hope to see some more exciting work by you guys.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Anithadevi Vilvanathan
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Very good.excellent.Best wishes for future endeavours
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Vilvanathan
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Good work. Brilliant job, keep continue
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Smitha G Pawar
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Amazed to see your website .Cookie learning seems to be very interesting. Explore more All the very best for all of you guys.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Ganesh Arjunan
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">Excellent work Cookies! Especially, I like the name of the site.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="carousel-item">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card-panel blue" style="height: 300px; width: 250px;">
+                                <span class="white-text">
+                                    Sasirekha babu
+                                </span>
+                                <br>
+                                <br>
+                                <p class="white-text small">It's really good see the webpages...I am really impressive...sure they will achieve...god bless them..
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<section class="footer blue">
+        <footer class="footer-one">
+            <div class="container footer-main">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h4 class="white-text acme">Contact Us</h4>
+                        <p class="white-text">To get the source code or a premium version of any application contact us at:</p>
+                        <p class="white-text">cookielearning@gail.com</p>
+                    </div>
+                    <div class="col l6 s12">
+                        <h4 class="white-text acme">Social Media</h4>
+                        <ul>
+                            <li><a href="#" class="white-text">Github(dev repos) : Ƥℝ๏gℝammeℝ</a></li>
+                            <li><a href="#" class="white-text">Linkedin : @Cookie Learning</a></li>
+                            <li><a href="#" class="white-text">Email : cookielearning@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row footer-two">
+                <div class="col l6 s12">
+                    <p class="white-text acme">&copy; Cookie</p>
+                </div>
+                <div class="col l6 s12">
+                    <p class="white-text right acme">Designed by Cookie</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+{% endblock %}
