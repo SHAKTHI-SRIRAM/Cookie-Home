@@ -356,7 +356,7 @@ label #cancel {
         top: 150px;
     }
 }
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 480px) {
     .banner__title {
         font-size: 30px;
     }
@@ -365,5 +365,9 @@ label #cancel {
         max-width: 80vw;
         left: 5px;
         top: 80px;
+    }
+
+    .product__img > img {
+        margin-right: 30px !important;
     }
 }

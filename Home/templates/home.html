@@ -6,7 +6,7 @@
 <div class="banner">
     <div class="banner__content">
         <h1 class="banner__title">Welcome to Cookie 🥳!!..</h1>
-        <h5 class="banner__desc">You are now in the ama<i>zzz</i>ing world of Cookie. Use all our applications and move into future. Become a member of the cookie family by joining us now!!..</h5>
+        <h5 class="banner__desc">You are now in the ama<i>zzz</i>ing world of Cookie. Use all our applications and move into future. Become a member of the cookie family by <a href="{% url 'register' %}">joining us now!!..</a> </h5>
     </div>
 </div>
 
@@ -83,7 +83,11 @@
         <div class="product__content row">
             <div class="product__desc col l8 m8 s12 alata">
                 <h2 class="product__title acme red-text">Cookie Classroom (beta)</h2>
-                A virtual Classroom application which enables teachers to create classrooms, tests, homeworks and assess the students time to time. It has got features of doubtbox and scorecards which improves its performance. To get the premium stable version of this app contact cookielearning@gmail.com .
+                A virtual Classroom application which enables teachers to create classrooms, tests, homeworks and assess the students time to time. It has got features of doubtbox and scorecards which improves its performance. To get the premium stable version of this app contact cookielearning@gmail.com.
+                <br>
+                <br>
+                To decide whether to buy this application for your institution purpose please visit the documentation.
+                (Please note that we are providing this application for free to the first few clients with extra features which they ask for)
                 <br>
                 <br>
                 <span class="release">Release Date : 14th Nov 2020</span>
@@ -119,7 +123,7 @@
                 <span class="release">Comes out this November</span>
             </div>
             <div class="product__img col l4 m4 s12">
-                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+                <img src="{% static 'images/cnews.png' %}" alt="">
             </div>
         </div>
     </div>
@@ -142,8 +146,8 @@
     <div class="product">
         <div class="product__content row">
             <div class="product__desc col l8 m8 s12 alata">
-                <h2 class="product__title acme orange-text">Cookie <span class="gal">Weather</span> </h2>
-                Cookie Weather is aweather application giving live updates upon the climatic conditions all over the world and also predicts the situation of future days.
+                <h2 class="product__title acme orange-text">Cookie <span class="">Weather</span> </h2>
+                Cookie Weather is aweather application giving live updates upon the climatic conditions all over the world and also predicts the situation of future days. It also predicts the weather of your geographic location where you are present.
                 <br>
                 <br>
                 <span class="release">Comes out this December</span>
@@ -174,6 +178,21 @@
             <div class="product__desc col l8 m8 s12 alata">
                 <h2 class="product__title acme blue-text">Cookie VA 1.1 </h2>
                 The stable version of Cookie the Virtual Assisstant. The improved features are it accepts voice queries and has got a wide range of inbuilt commands. You can play songs, games and do your schoolwork and projects easily with this application.
+                <br>
+                <br>
+                <span class="release">Comes out this December</span>
+            </div>
+            <div class="product__img col l4 m4 s12">
+                <img src="{% static 'images/comingsoon.jpg' %}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product__content row">
+            <div class="product__desc col l8 m8 s12 alata">
+                <h2 class="product__title acme purple-text">Cookie Learning Master </h2>
+                A full fledged learnign app where you can find the resource materials for preparation of top examinations and helps you a lot with your studies and examinations. It is open source and provides students the right place to learn. If you are afraid of examinations and bored of online classes then this application will solve all your problems and makes learning easy. <br> P.S. This first version comes out for the usage of students of classes X and XI.
                 <br>
                 <br>
                 <span class="release">Comes out this December</span>
